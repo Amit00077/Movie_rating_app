@@ -148,6 +148,7 @@ class _SignUpPageState extends State<SignUpPage> {
                     }
                     return null;
                   },
+                  obscureText: true,
                   controller: passwordController,
                   keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(

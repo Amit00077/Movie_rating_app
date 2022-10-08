@@ -85,6 +85,7 @@ class _LoginPageState extends State<LoginPage> {
                     }
                     return null;
                   },
+                  obscureText: true,
                   controller: passwordController,
                   keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
